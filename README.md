@@ -1,4 +1,5 @@
 # PCA: EXP-1  SUM ARRAY GPU
+
 <h3>ENTER YOUR NAME: DURGA V</h3>
 <h3>ENTER YOUR REGISTER NO: 212223230052</h3>
 <h3>EX.NO.01</h3>
@@ -8,11 +9,13 @@ PCA-GPU-based-vector-summation.-Explore-the-differences.
 i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile and run it. Compare the result with the execution configuration of block.x = 1024. Try to explain the difference and the reason.
 
 ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel to let each thread handle two elements. Compare the results with other execution confi gurations.
+
 ## AIM:
 
 To perform vector addition on host and device.
 
 ## EQUIPMENTS REQUIRED:
+
 Hardware – PCs with NVIDIA GPU & CUDA NVCC
 Google Colab with NVCC Compiler
 
@@ -29,6 +32,7 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
+
 ```
 %%cuda
 #include <cuda_runtime.h>
